@@ -16,3 +16,7 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
+
+node /^client/ {
+  include role:app_server
+}
