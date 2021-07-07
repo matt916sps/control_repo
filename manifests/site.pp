@@ -18,5 +18,5 @@ node /^db/ {
 }
 
 node /^client/ {
-  include role:app_server
+  include role::app_server
 }
